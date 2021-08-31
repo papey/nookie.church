@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Abel&family=Kanit:wght@500&family=Libre+Franklin&display=swap");
+
+:root {
+  --main-bright-color: #a9a9a9;
+  --main-dark-color: #010101;
+  --secondary-color: #a84f31;
+  --details-color: #69541b;
+}
+
+html,
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: var(--main-dark-color);
+  color: var(--main-bright-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+  margin: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+a:link,
+a:visited {
+  background-color: var(--secondary-color);
+  color: var(--main-bright-color);
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  background-color: var(--main-bright-color);
+  color: var(--secondary-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.title {
+  font-weight: bold;
+  font-family: "Bungee Outline", cursive;
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.breaker {
+  color: var(--details-color);
+  border: 10px solid;
+  margin: 2rem;
+  width: 25%;
+}
+
+.name {
+  color: var(--details-color);
+  display: inline;
+  text-decoration: underline;
+}
+
+.role {
+  display: inline;
+  text-transform: uppercase;
+}
+
+#join {
+  font-weight: bolder;
+  margin: 5rem;
+}

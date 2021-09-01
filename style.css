@@ -5,6 +5,7 @@
   --main-dark-color: #010101;
   --secondary-color: #a84f31;
   --details-color: #69541b;
+  --hidden-color: #1b1b1b;
 }
 
 html,
@@ -69,6 +70,12 @@ a:active {
 .role {
   display: inline;
   text-transform: uppercase;
+}
+
+.hidden {
+  color: var(--hidden-color);
+  font-size: smaller;
+  font-weight: bolder;
 }
 
 #join {
